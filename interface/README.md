@@ -1,27 +1,55 @@
-# Interface
+![Header image](https://i.ibb.co/cyJGWvT/Logo-Airbnb.jpg)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+---
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* [Introduction](#introduction)
+* [Ilustrations](#ilustrations)
+* [Structure](#structure)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Learn More](#learn-more)
 
-## Code scaffolding
+## Introduction
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esse é um projeto realizado como forma de entrosamento entre o time Dev.
 
-## Build
+## Ilustrations
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Aqui ficara algumas fotos/gif do projeto
 
-## Running unit tests
+## Structure
+```
+├── interface
+│   ├── e2e
+│   ├── node_modules
+│   └── src
+│       ├── app
+│       ├── assets
+│       └── environments
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+Essa é a estrutura hierarquica do projeto, aqui você encontrará os principais diretorios:  
+* Diretorio X;  
+* Diretorio Y;  
+* Diretorio z.
 
-## Running end-to-end tests
+Você encontrará também a documentação necessaria para o projeto...
+	
+## Technologies
+Esse projeto foi desenvovido utilizando:
+* [Angular CLI](https://angular.io/guide/setup-local) version: 10.1.4
+* [TypeScript](https://www.typescriptlang.org/) version: 4.0.2
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Setup
+Para a execuçaõ desse projeto, será necessario instalar localmente utilizando o npm:
 
-## Further help
+```
+$ npm install -g @angular/cli
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Learn More
+
+You can learn more in the [Our wiki project progress](https://github.com/Dheyson/react-atomic-tailwind-storybook/wiki/How-did-we-get-here%3F).
