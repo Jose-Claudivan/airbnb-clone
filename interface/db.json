@@ -1,0 +1,59 @@
+{
+    "imovel": [
+        {
+            "id": 1,
+            "nome": "Casa de Praia",
+            "descricao": "Casa na praia dos Carangueijos caolhos, perfeita para passar o final de semana",
+            "tipo": "Casa",
+            "avaliacao": 5.2,
+            "taxa": 250.00,
+            "localizacao": 11111111111,
+            "endereco": "Rua de Areia",
+            "telefone": 8199887766,
+            "imagens": "Array",
+            "proprietario": "Joao Barbosa dos Santos"
+        },
+        {
+            "id": 2,
+            "nome": "Casa na Arvore",
+            "descricao": "Casa ideal para aqueles que buscam um local para viver seus sonhos.",
+            "tipo": "Casa",
+            "avaliacao": 5.2,
+            "taxa": 250.00,
+            "localizacao": 11111111111,
+            "endereco": "Rua do Galho Quebrado",
+            "telefone": 8199887766,
+            "imagens": "Array",
+            "proprietario": "Denis Pimentinha"
+        },
+        {
+            "id": 3,
+            "nome": "Casa de Campo",
+            "descricao": "Casa no campo daqueles que ja foram e nao voltam mais, ideal para quem quer um local calmo para passar um longo periodo.",
+            "tipo": "Casa",
+            "avaliacao": 5.2,
+            "taxa": 250.00,
+            "localizacao": 11111111111,
+            "endereco": "Beco sem saida",
+            "telefone": 8199887766,
+            "imagens": "Array",
+            "proprietario": "Maria das Gracas Souza"
+        }
+    ],
+    "reserva": [
+        {
+            "checkin": "Data entrada",
+            "checkout": "Data saida",
+            "hospedes": "quantidade",
+            "valor": 250.00,
+            "imovel": "chave estrangeira do imovel"
+        }
+    ],
+    "avaliacao": [
+        {
+            "imovel": "chave estrangeira do imovel",
+            "nota": 5,
+            "comentario": "Casa top, gostei bastante"
+        }
+    ]
+}
