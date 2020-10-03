@@ -1,7 +1,10 @@
-export interface Reserva {
+import { Resource } from './resource'
+
+export class Reserva extends Resource{
     checkin: Date
     checkout: Date
-    hospedes: number
+    hospede: number
     valor: number
-    //imovel: chave estrangeira do imovel
+    imovel_id: string
+
 }

@@ -1,13 +1,16 @@
-export interface Imovel {
-    id?: number //id é opcional na criacao do imovel
+import { Avaliacao } from './avaliacao';
+import { Resource } from './resource'
+
+export class Imovel extends Resource{
     nome: string
     descricao: string
     tipo: string
-    avaliacao: number 
+    avaliacao: number
     taxa: number
-    localizacao: number 
+    localizacao: number
     endereco: string
     telefone: number
-    imagens: number
+    imagens: string[]
     proprietario: string
+    avaliacoes: Avaliacao[]
 }

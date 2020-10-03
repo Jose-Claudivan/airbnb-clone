@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  request_base_url: 'http://157.230.201.135/',
 };
