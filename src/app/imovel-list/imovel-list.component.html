@@ -1,12 +1,14 @@
+<mat-card class="card">
+  <div class="mat-elevation-z4" *ngFor="let imovel of imoveis">
+    <mat-card-title>{{imovel.nome}}</mat-card-title>
+    <p></p>
+    <p>{{imovel.descricao}}</p>
+    <p>{{imovel.tipo}}</p>
+    <p>{{imovel.logradouro}}. {{imovel.bairro}}, {{imovel.cidade}}.</p>
+    <p>Taxa diária: {{imovel.taxa_diaria}}</p>
+    <span class="imagens" *ngFor="let image of imovel.imagens">
+      <img [src]="image" />
+    </span>
 
-<div *ngFor="let imovel of imoveis" >
-  <p>{{imovel.nome}}</p>
-  <p>{{imovel.descricao}}</p>
-  <p>{{imovel.tipo}}</p>
-  <p>{{imovel.logradouro}}. {{imovel.bairro}}, {{imovel.cidade}}.</p>
-  <p>Taxa diária: {{imovel.taxa_diaria}}</p>
-  <span class="imagens" *ngFor="let image of imovel.imagens">
-    <img [src]="image" />
-  </span>
-
-</div>
+  </div>
+</mat-card>
