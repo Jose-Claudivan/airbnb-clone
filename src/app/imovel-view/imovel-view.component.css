@@ -1,0 +1,9 @@
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.element {
+  width: 50%;
+}

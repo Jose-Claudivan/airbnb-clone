@@ -1,0 +1,32 @@
+<agm-map
+  [latitude]="lat"
+  [longitude]="lng"
+  [zoom]="zoom"
+  [disableDefaultUI]="false"
+  [zoomControl]="false"
+  (mapClick)="mapClicked($event)">
+
+  <agm-marker
+      *ngFor="let u of imoveis; let i = index"
+      (markerClick)="clickedMarker(u, i)"
+      [latitude]="u.latitude"
+      [longitude]="u.longitude"
+      [label]="{color:'white',fontWeight: 'bold',
+       text: 'I'}"
+      [iconUrl]="getIcon()"
+      (dragEnd)="markerDragEnd(u, $event)">
+
+    <agm-info-window>
+        <strong>{{u.nome}}</strong><br>
+    </agm-info-window>
+
+  </agm-marker>
+
+
+  <agm-marker
+      [latitude]="lat"
+      [longitude]="lng"
+      [iconUrl]="iconUser">
+  </agm-marker>
+
+</agm-map>
