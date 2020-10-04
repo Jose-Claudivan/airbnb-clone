@@ -1,3 +1,9 @@
+.card {
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
 div{
   border:1px solid #000;
   margin: 10px;
