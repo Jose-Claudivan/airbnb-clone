@@ -58,7 +58,7 @@ export class ResourceService<T extends Resource> implements ResourceServiceInter
           .delete(`${this.url}/${this.endpoint}/${id}`);
       }
 
-      public updateChild(item: T, child: string,serializer: Serializer): Observable<T>{
+      public updateChild(item: T, child: string, serializer: Serializer): Observable<T>{
         return this.httpClient
           .put<T>(`${this.url}/${this.endpoint}/${item.id}/${child}`,
             serializer.toJson(item[child]));

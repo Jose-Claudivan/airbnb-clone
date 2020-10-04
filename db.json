@@ -6,12 +6,16 @@
             "descricao": "Casa na praia dos Carangueijos caolhos, perfeita para passar o final de semana",
             "tipo": "Casa",
             "avaliacao": 5.2,
-            "taxa": 250.00,
-            "localizacao": 11111111111,
-            "endereco": "Rua de Areia",
+            "taxa_diaria": 250.00,
+            "latitude": -8.283798,
+            "longitude": -35.967820,
+            "logradouro": "Rua de Areia",
+            "bairro":"Águas",
+            "cidade":"Aquaria",
             "telefone": 8199887766,
-            "imagens": "Array",
-            "proprietario": "Joao Barbosa dos Santos"
+            "imagens": ["https://images.adsttc.com/media/images/5d4d/f834/284d/d1d5/e200/02dd/large_jpg/FEATURED_IMAGE.jpg?1565390873",
+              "https://s2.glbimg.com/ulqlv4AMKzTknUujSFXc0aGKQXI=/smart/e.glbimg.com/og/ed/f/original/2019/10/15/decoracao-casa-de-praia-8.jpg"],
+            "proprietario": "João Barbosa dos Santos"
         },
         {
             "id": 2,
@@ -19,11 +23,15 @@
             "descricao": "Casa ideal para aqueles que buscam um local para viver seus sonhos.",
             "tipo": "Casa",
             "avaliacao": 5.2,
-            "taxa": 250.00,
-            "localizacao": 11111111111,
-            "endereco": "Rua do Galho Quebrado",
+            "taxa_diaria": 250.00,
+            "latitude": -8.610659,
+            "longitude": -35.952312,
+            "logradouro": "Rua do Galho Quebrado",
+            "bairro":"Árvores",
+            "cidade":"Amazônia",
             "telefone": 8199887766,
-            "imagens": "Array",
+            "imagens": ["https://imagens-revista.vivadecora.com.br/uploads/2018/07/Modelo-de-casa-na-%C3%A1rvore-com-guarda-corpo-de-madeira.-Fonte-Pinterest.jpg",
+            "https://gerenciamentoestrategico.files.wordpress.com/2018/04/casaarvore.jpg"],
             "proprietario": "Denis Pimentinha"
         },
         {
@@ -32,28 +40,34 @@
             "descricao": "Casa no campo daqueles que ja foram e nao voltam mais, ideal para quem quer um local calmo para passar um longo periodo.",
             "tipo": "Casa",
             "avaliacao": 5.2,
-            "taxa": 250.00,
-            "localizacao": 11111111111,
-            "endereco": "Beco sem saida",
+            "taxa_diaria": 250.00,
+            "latitude": -8.608933,
+            "longitude": -35.950170,
+            "logradouro": "Rua do Beco sem saída",
+            "bairro":"Cavalos",
+            "cidade":"Roça temperada",
             "telefone": 8199887766,
-            "imagens": "Array",
-            "proprietario": "Maria das Gracas Souza"
+            "imagens": ["https://i.pinimg.com/originals/93/a4/90/93a49086869e323f94eb7ad6869cd0dd.jpg",
+              "https://images.homify.com/c_fill,f_auto,q_0,w_740/v1525617286/p/photo/image/2548936/WhatsApp_Image_2018-04-30_at_12.55.35.jpg"],
+            "proprietario": "Maria das Graças Souza"
         }
     ],
     "reserva": [
         {
-            "checkin": "Data entrada",
-            "checkout": "Data saida",
-            "hospedes": "quantidade",
+            "id":1,
+            "checkin": "2020-10-01",
+            "checkout": "2020-10-10",
+            "hospedes": 2,
             "valor": 250.00,
-            "imovel": "chave estrangeira do imovel"
+            "imovel_id": 1
         }
     ],
     "avaliacao": [
         {
-            "imovel": "chave estrangeira do imovel",
+            "id":1,
             "nota": 5,
-            "comentario": "Casa top, gostei bastante"
+            "comentario": "Casa top, gostei bastante",
+            "imovel_id": 1
         }
     ]
 }

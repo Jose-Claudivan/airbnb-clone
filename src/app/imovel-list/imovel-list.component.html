@@ -1,0 +1,12 @@
+
+<div *ngFor="let imovel of imoveis" >
+  <p>{{imovel.nome}}</p>
+  <p>{{imovel.descricao}}</p>
+  <p>{{imovel.tipo}}</p>
+  <p>{{imovel.logradouro}}. {{imovel.bairro}}, {{imovel.cidade}}.</p>
+  <p>Taxa diária: {{imovel.taxa_diaria}}</p>
+  <span class="imagens" *ngFor="let image of imovel.imagens">
+    <img [src]="image" />
+  </span>
+
+</div>

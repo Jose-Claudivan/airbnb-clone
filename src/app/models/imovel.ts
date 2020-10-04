@@ -1,4 +1,3 @@
-import { Avaliacao } from './avaliacao';
 import { Resource } from './resource'
 
 export class Imovel extends Resource{
@@ -6,11 +5,13 @@ export class Imovel extends Resource{
     descricao: string
     tipo: string
     avaliacao: number
-    taxa: number
-    localizacao: number
-    endereco: string
-    telefone: number
+    taxa_diaria: number
+    latitude: number
+    longitude: number
+    logradouro: string
+    bairro: string
+    cidade: string
+    telefone: string
     imagens: string[]
     proprietario: string
-    avaliacoes: Avaliacao[]
 }
