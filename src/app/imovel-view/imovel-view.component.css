@@ -1,10 +1,9 @@
 #content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .element {
-  width: 50%;
+  width: 100vw;
 }

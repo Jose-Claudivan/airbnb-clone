@@ -1,7 +1,6 @@
 <mat-card class="card">
-  <div class="mat-elevation-z4" *ngFor="let imovel of imoveis">
+  <div class="mat-elevation-z4" *ngFor="let imovel of imoveis"><!--ajustar a sombra 'mat-elevation'-->
     <mat-card-title>{{imovel.nome}}</mat-card-title>
-    <p></p>
     <p>{{imovel.descricao}}</p>
     <p>{{imovel.tipo}}</p>
     <p>{{imovel.logradouro}}. {{imovel.bairro}}, {{imovel.cidade}}.</p>
