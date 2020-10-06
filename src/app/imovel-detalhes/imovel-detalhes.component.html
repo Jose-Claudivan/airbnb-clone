@@ -1,0 +1,36 @@
+<mat-card class="card">
+  <div class="mat-elevation-z4"><!--ajustar a sombra 'mat-elevation'-->
+    <img [src]="imovel.imagens[0]" />
+    <mat-card-title>{{imovel.nome}} - {{imovel.cidade}}</mat-card-title>
+    <p>{{imovel.descricao}}</p>
+    <p>{{imovel.tipo}}</p>
+    <p>R${{imovel.taxa_diaria}}/noite</p>
+    <p>{{imovel.avaliacao}}</p>
+
+
+  <form (ngSubmit)="onSubmit()" #form="ngForm" class="form-inline">
+
+    <mat-form-field>
+       <mat-label>Checkin</mat-label>
+       <input matInput placeholder="Checkin">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Checkout</mat-label>
+        <input matInput placeholder="Checkout">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Hóspedes</mat-label>
+        <input matInput placeholder="Hóspedes">
+    </mat-form-field>
+<br/>
+
+
+
+    <button mat-raised-button color="primary" (click)="onSubmit()">Reservar</button>
+
+  </form>
+</div>
+
+</mat-card>

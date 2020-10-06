@@ -1,0 +1,9 @@
+#content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+
+.element {
+  width: 100vw;
+}
